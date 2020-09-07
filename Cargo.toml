@@ -1,0 +1,18 @@
+[package]
+name = "argst"
+version = "0.1.0"
+authors = ["Tyler Ruckinger <t.ruckinger@gmail.com>"]
+edition = "2018"
+
+description = "A one-macro crate for generating StructOpt boilerplate and binding args"
+documentation = "https://docs.rs/argst"
+repository = "https://github.com/TyPR124/argst"
+keywords = ["args", "structopt"]
+
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.17"
